@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <Circle />
+
       <Screen color="white">
         <Landing />
       </Screen>
