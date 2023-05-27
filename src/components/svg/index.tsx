@@ -5,8 +5,7 @@ export function InstikiVertical() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="450"
-      height="450"
+      className="w-80 h-80 md:w-96 md:h-96 lg:w-4/5 lg:h-4/5"
       fill="none"
       viewBox="0 0 482 482"
     >
