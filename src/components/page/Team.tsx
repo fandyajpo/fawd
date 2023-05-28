@@ -91,9 +91,9 @@ const Team = () => {
             role="list"
             className="grid gap-x-8 gap-y-12 grid-cols-2 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2"
           >
-            {lead.map(() => {
+            {lead.map((s, e) => {
               return (
-                <li>
+                <li key={e}>
                   <div className="flex flex-col md:flex-row items-center gap-x-6">
                     <img
                       className="h-16 w-16 rounded-full"
@@ -146,7 +146,7 @@ const Team = () => {
           >
             {data.map((a, i) => {
               return (
-                <li>
+                <li key={i}>
                   <div className="flex flex-col items-center gap-x-6">
                     <img
                       className="h-16 w-16 rounded-full"
