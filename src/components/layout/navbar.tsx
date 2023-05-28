@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import { IDCHORIZONTAL } from "../svg";
 import Link from "next/link";
+
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
 
@@ -15,12 +16,32 @@ const Navbar = () => {
   } = router;
 
   const scroll = (elementID: string) => {
-    const element: any = document.getElementById(elementID);
-    element.scrollIntoView({
-      behavior: "smooth",
-      block: "nearest",
-      inline: "nearest",
+    if (elementID === "/") {
+      const element: any = document.getElementById("landing");
+      router.push("/", undefined, {
+        shallow: true,
+        scroll: false,
+      });
+      return element?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "nearest",
+      });
+    }
+    router.push(`/#${elementID}`, undefined, {
+      shallow: true,
+      scroll: false,
     });
+
+    if (router.pathname === "/") {
+      const element: any = document.getElementById(elementID);
+
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "nearest",
+      });
+    }
   };
 
   return (
@@ -44,20 +65,20 @@ const Navbar = () => {
           }`}
         >
           <div>
-            <Link
-              href={"/"}
+            <button
+              onClick={() => scroll("/")}
               className={`w-full md:w-auto duration-75 ${
-                router.pathname === "/" && "text-red500"
+                router.asPath === "/" && "text-red500"
               }`}
             >
               Home
-            </Link>
+            </button>
           </div>
           <div>
             <button
               onClick={() => scroll("program")}
-              className={`w-full md:w-auto text-left duration-75 ${
-                id === "men" && "border-b-2 border-black"
+              className={`w-full md:w-auto duration-75 ${
+                router.asPath === "/#program" && "text-red500"
               }`}
             >
               Program
@@ -66,8 +87,8 @@ const Navbar = () => {
           <div>
             <button
               onClick={() => scroll("about")}
-              className={`w-full md:w-auto text-left duration-75 ${
-                id === "woman" && "border-b-2 border-black"
+              className={`w-full md:w-auto duration-75 ${
+                router.asPath === "/#about" && "text-red500"
               }`}
             >
               About Us
@@ -76,8 +97,8 @@ const Navbar = () => {
           <div>
             <button
               onClick={() => scroll("team")}
-              className={`w-full md:w-auto text-left duration-75 ${
-                id === "kids" && "border-b-2 border-black"
+              className={`w-full md:w-auto duration-75 ${
+                router.asPath === "/#team" && "text-red500"
               }`}
             >
               Team
@@ -85,8 +106,8 @@ const Navbar = () => {
           </div>
           <div>
             <button
-              className={`w-full md:w-auto text-left duration-75 ${
-                id === "custom" && "border-b-2 border-black"
+              className={`w-full md:w-auto duration-75 ${
+                router.asPath === "/#alumni" && "text-red500"
               }`}
             >
               Alumni

@@ -5,7 +5,10 @@ import Landing from "@/components/page/Landing";
 import About from "@/components/page/About";
 import Team from "@/components/page/Team";
 import Program from "@/components/page/Program";
+import { useRouter } from "next/router";
+import Banner from "@/components/page/Banner";
 export default function Home() {
+  const router = useRouter();
   return (
     <>
       <Circle />
@@ -18,6 +21,7 @@ export default function Home() {
       <Screen color="white" id="program">
         <Program />
       </Screen>
+      <Banner />
       <Screen color="white" id="team">
         <Team />
       </Screen>

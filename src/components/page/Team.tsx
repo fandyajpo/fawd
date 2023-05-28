@@ -3,15 +3,48 @@ const data = [
   {
     name: "Fandy",
     role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
   },
-  { name: "Agusto", role: "Co-Founder" },
-  { name: "Dayu", role: "Vercel Team" },
-  { name: "Wisnu", role: "Netlify" },
-  { name: "Fandy", role: "Founder" },
-  { name: "Fandy", role: "Founder" },
-  { name: "Fandy", role: "Founder" },
-  { name: "Fandy", role: "Founder" },
-  { name: "Fandy", role: "Founder" },
+  {
+    name: "Agusto",
+    role: "Co-Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Dayu",
+    role: "Vercel Team",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Wisnu",
+    role: "Netlify",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
 ];
 
 const Team = () => {
@@ -32,7 +65,7 @@ const Team = () => {
       <div className="space-y-6">
         <div className="space-y-4 px-6 md:px-0">
           <h1 className="text-xl font-semibold text-gray800">Our Team</h1>
-          <p className="w-11/12 text-sm font-light">
+          <p className="w-11/12 md:w-5/6 lg:w-2/4 text-sm font-light">
             We{"’"}re a dynamic group of individuals who are passionate about
             what we do and dedicated to delivering the best results for our
             clients.
@@ -58,14 +91,14 @@ const Team = () => {
                 className=" w-full h-44 flex flex-col items-center justify-center gap-y-4"
               >
                 <div className="bg-gray300 rounded-full w-24 h-24 overflow-hidden">
-                  {/* {a.hasOwnProperty("src") ? (
+                  {a.hasOwnProperty("src") ? (
                     <Image
                       src={a.src as any}
                       width={500}
                       height={500}
                       alt="hai"
                     />
-                  ) : null} */}
+                  ) : null}
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray800 h-6 text-center">
