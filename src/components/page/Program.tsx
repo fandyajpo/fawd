@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 const a = [2, 2, 2, 2, 2, 2];
 
 const Program = () => {
@@ -20,20 +20,21 @@ const Program = () => {
         </div>
         <div className="space-y-14">
           <div className="space-y-4 px-6 md:px-0">
-            <h1 className="text-xl font-semibold text-gray800">Program</h1>
-            <p className="w-11/12 md:w-5/6 lg:w-2/4 text-sm font-light">
-              We{"’"}re a dynamic group of individuals who are passionate about
-              what we do and dedicated to delivering the best results for our
-              clients.
+            <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red500 to-orange500 sm:text-4xl">
+              Our Programs
+            </h2>
+            <p className="mt-6 text-xs leading-4 text-gray600">
+              Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
+              vitae elementum enim vitae ullamcorper suspendisse.
             </p>
           </div>
           <div>
-            <h1 className="text-xl font-semibold text-gray800 text-center">
-              IDC Division
-            </h1>
-            <div className="flex items-center justify-center pt-14">
-              <div className="grid grid-cols-2 md:grid-cols-3 w-fit gap-3 justify-self-center">
-                <div className="w-44 h-44 bg-blue-500 overflow-hidden rounded-xl">
+            {/* <h1 className="text-xl font-semibold text-gray800 text-center">
+              Our Division Category
+            </h1> */}
+            {/* <div className="flex items-center justify-center pt-14">
+              <div className="grid grid-cols-3 md:grid-cols-3 w-fit gap-3 justify-self-center">
+                <div className="w-24 h-24 bg-blue-500 overflow-hidden rounded-xl">
                   <Image
                     src={
                       "https://cdn.discordapp.com/attachments/1055060226858029076/1112241795502444604/blog-thumb-1.png"
@@ -44,7 +45,7 @@ const Program = () => {
                     height={500}
                   />
                 </div>
-                <div className="w-44 h-44 bg-blue-500 overflow-hidden rounded-xl">
+                <div className="w-24 h-24 bg-blue-500 overflow-hidden rounded-xl">
                   <Image
                     src={
                       "https://cdn.discordapp.com/attachments/1055060226858029076/1112241926738026607/wPr2XV3ZB8vO0AAAAASUVORK5CYII.png"
@@ -55,7 +56,7 @@ const Program = () => {
                     height={500}
                   />
                 </div>
-                <div className="w-44 h-44 bg-blue-500 overflow-hidden rounded-xl">
+                <div className="w-24 h-24 bg-blue-500 overflow-hidden rounded-xl">
                   <Image
                     src={
                       "https://cdn.discordapp.com/attachments/1055060226858029076/1112242021860638801/images.png"
@@ -67,7 +68,7 @@ const Program = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="w-full flex items-center gap-4 px-2 overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -78,17 +79,17 @@ const Program = () => {
                   className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-md flex-none relative"
                 >
                   <a href="#">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                      Noteworthy technology acquisitions 2021
+                    <h5 className="mb-2 md:text-base text-sm font-bold tracking-tight text-gray-900 break-words">
+                      Ngobar {"(Ngoding bareng)"}
                     </h5>
                   </a>
-                  <p className="mb-3 font-normal text-gray-700 ">
+                  <p className="mb-3 font-normal text-gray600 text-xs">
                     Here are the biggest enterprise technology acquisitions of
                     2021 so far, in reverse chronological order.
                   </p>
-                  <a
-                    href="#"
-                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                  <Link
+                    href={""}
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red500 rounded-lg hover:bg-red700 focus:ring-4 focus:outline-none focus:ring-red200"
                   >
                     Read more
                     <svg
@@ -99,12 +100,12 @@ const Program = () => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               );
             })}

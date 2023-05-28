@@ -15,13 +15,13 @@ export default function Home() {
       <Screen color="white" id="landing">
         <Landing />
       </Screen>
+      <Banner />
       <Screen color="white" id="about">
         <About />
       </Screen>
       <Screen color="white" id="program">
         <Program />
       </Screen>
-      <Banner />
       <Screen color="white" id="team">
         <Team />
       </Screen>

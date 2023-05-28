@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="w-full h-52 mt-16 relative isolate">
+    <div className="w-full h-auto mt-16 relative isolate">
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
@@ -13,11 +13,11 @@ const Banner = () => {
           }}
         />
       </div>
-      <div className="w-full p-4 text-center bg-white border border-gray-200 shadow">
-        <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 ">
-          Building Extraordinary Developers at INSTIKI
+      <div className="w-full p-4 text-center bg-gradient-to-r from-red500 to-darkred border-t border-b border-red900 shadow-sm">
+        <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold text-white ">
+          Building Extraordinary Developers at INSTIKI {"🤟"}
         </h5>
-        <p className="mb-5 text-gray-500 text-sm ">
+        <p className="text-white text-sm ">
           IDC empowers developers at INSTIKI to reach new heights. Through
           workshops, projects, and innovation, we shape the future of tech.
         </p>

@@ -141,3 +141,13 @@ svg.card {
   flex: 0 0 100%;
   min-width: 0;
 }
+
+.typing-cursor {
+  animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes blink-caret {
+  50% {
+    opacity: 0;
+  }
+}
