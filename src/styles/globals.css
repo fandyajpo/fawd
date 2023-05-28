@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -65,7 +68,7 @@ svg.card {
 .card .orbit {
   fill: none;
   stroke-width: 1.165;
-  animation: grow 5s linear both infinite;
+  animation: grow 4s linear both infinite;
 }
 
 .card .orbits > g {
@@ -90,7 +93,7 @@ svg.card {
 }
 
 .card stop {
-  stop-color: rgba(0, 0, 0, 0.3);
+  stop-color: rgba(180, 32, 32, 0.3);
 }
 
 @media (min-width: 800px) {
@@ -99,7 +102,7 @@ svg.card {
   }
 
   .card .orbits > g:nth-child(3) {
-    animation-duration: 150s;
+    animation-duration: 25s;
   }
 
   .card .orbits > g:nth-child(4) {
@@ -124,4 +127,17 @@ svg.card {
   .card .orbits > g {
     animation: none;
   }
+}
+
+/* EMBLA */
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }

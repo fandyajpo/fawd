@@ -15,6 +15,10 @@ const nextConfig = {
 
     return config;
   },
+
+  images: {
+    domains: ["cdn.discordapp.com"],
+  },
 };
 
 module.exports = nextConfig;

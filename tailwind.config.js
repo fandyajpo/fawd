@@ -51,6 +51,8 @@ module.exports = {
         blue700: "#3578DB",
         blue800: "#3266C8",
         blue900: "#2C48A8",
+        // THEME
+        darkred: "#A01C20",
       },
     },
   },

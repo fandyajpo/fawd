@@ -1,5 +1,5 @@
-import { InstikiVertical } from "../svg";
-
+import { IDCVERTICAL } from "../svg";
+import Link from "next/link";
 const Landing = () => {
   return (
     <div className="bg-white">
@@ -16,32 +16,34 @@ const Landing = () => {
             }}
           />
         </div>
+
         <div className="mx-auto max-w-2xl">
           <div className="text-center">
             <div className="flex justify-center items-center">
-              <InstikiVertical />
+              <IDCVERTICAL />
             </div>
-            <h1 className="text-4xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red500 to-orange700 sm:text-6xl">
+            <h1 className="text-4xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red500 to-orange700">
               Developers Grow Here
             </h1>
             <div className="flex flex-col-reverse md:flex-col">
-              <p className="mt-4 text-sm leading-8 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+              <p className="mt-4 text-sm leading-6 md:leading-8 text-gray800">
+                Aku IDC, UKM untuk para Developer di INSTIKI. UKM yang penuh
+                dengan mahasiswa INSTIKI yang memiliki potensi untuk menjadi
+                seorang Developer. UKM yang seharusnya bisa menjadi UKM raksasa
+                karena aku berbasis di kampus IT.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
+              <div className="mt-8 flex items-center justify-center gap-x-6">
+                <Link
                   href="#"
-                  className="rounded-md bg-red500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-red500  px-3.5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-red900 duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Get started
-                </a>
+                  Join with us
+                </Link>
                 <a
                   href="#"
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
-                  Learn more <span aria-hidden="true">→</span>
+                  About <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>

@@ -4,6 +4,7 @@ export interface IState {
 }
 
 export interface IScreen {
+  id: string;
   image?: string;
   color?: string;
   children: React.ReactNode;
