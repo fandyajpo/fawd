@@ -53,7 +53,10 @@ const Team = () => {
         <div className="gap-2 grid grid-cols-2 md:grid-cols-4">
           {data.map((a, i) => {
             return (
-              <div className=" w-full h-44 flex flex-col items-center justify-center gap-y-4">
+              <div
+                key={i}
+                className=" w-full h-44 flex flex-col items-center justify-center gap-y-4"
+              >
                 <div className="bg-gray300 rounded-full w-24 h-24 overflow-hidden">
                   {/* {a.hasOwnProperty("src") ? (
                     <Image
