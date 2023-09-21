@@ -180,8 +180,8 @@ const Circle = () => {
         </linearGradient>
 
         <linearGradient id="#mask-gradient">
-          <stop offset="0" stop-color="black" />
-          <stop offset="1" stop-color="white" />
+          <stop offset="0" stopColor="black" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <mask id="mask">
           <rect

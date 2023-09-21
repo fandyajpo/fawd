@@ -5,14 +5,26 @@ import { Poppins } from "next/font/google";
 import NProgress from "nprogress";
 import Router from "next/router";
 import "nprogress/nprogress.css";
+import { Head } from "next/document";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
 Router.events.on("routeChangeError", () => NProgress.done());
 
 const poppins = Poppins({
-  weight: "400",
-  subsets: ["latin"],
+  weight: [
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "600",
+    "700",
+    "800",
+    "900",
+  ],
+  subsets: ["devanagari"],
   preload: true,
   fallback: ["Wait"],
 });

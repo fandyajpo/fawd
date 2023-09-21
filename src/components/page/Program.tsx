@@ -20,7 +20,7 @@ const Program = () => {
         </div>
         <div className="space-y-14">
           <div className="space-y-4 px-6 md:px-0">
-            <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red500 to-orange500 sm:text-4xl">
+            <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-blue-500 sm:text-4xl">
               Our Programs
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">
@@ -80,16 +80,16 @@ const Program = () => {
                 >
                   <a href="#">
                     <h5 className="mb-2 md:text-base text-sm font-bold tracking-tight text-gray-900 break-words">
-                      Ngobar {"(Ngoding bareng)"}
+                      Programs
                     </h5>
                   </a>
                   <p className="mb-3 font-normal text-gray600 text-xs">
                     Here are the biggest enterprise technology acquisitions of
                     2021 so far, in reverse chronological order.
                   </p>
-                  <Link
+                  {/* <Link
                     href={""}
-                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red500 rounded-lg hover:bg-red700 focus:ring-4 focus:outline-none focus:ring-red200"
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-500"
                   >
                     Read more
                     <svg
@@ -105,7 +105,7 @@ const Program = () => {
                         clipRule="evenodd"
                       ></path>
                     </svg>
-                  </Link>
+                  </Link> */}
                 </div>
               );
             })}

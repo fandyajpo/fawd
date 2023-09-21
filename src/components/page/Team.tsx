@@ -11,6 +11,26 @@ const lead = [
     src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
   },
   {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
+    name: "Fandy",
+    role: "Founder",
+    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+  },
+  {
     name: "Agusto",
     role: "Co-Founder",
     src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
@@ -79,8 +99,8 @@ const Team = () => {
       <div className="py-24">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-6 xl:grid-cols-3">
           <div className="space-y-4 px-6 md:px-0">
-            <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red500 to-orange500 sm:text-4xl">
-              IDC Founder
+            <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500 sm:text-4xl">
+              Core Team
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">
               Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
@@ -131,7 +151,7 @@ const Team = () => {
         {/* <button onClick={() => setOpen(true)}>Open</button> */}
         <div className="space-y-6">
           <div className="space-y-4 px-6 md:px-0">
-            <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red500 to-orange500 sm:text-4xl">
+            <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500 sm:text-4xl">
               Teammates
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">

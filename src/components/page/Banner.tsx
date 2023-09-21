@@ -13,13 +13,15 @@ const Banner = () => {
           }}
         />
       </div>
-      <div className="w-full p-4 text-center bg-gradient-to-r from-red500 to-darkred border-t border-b border-red900 shadow-sm">
+      <div className="w-full p-4 text-center bg-gradient-to-r from-blue-500 to-blue-800 border-t shadow-sm">
         <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold text-white ">
-          Building Extraordinary Developers at INSTIKI {"🤟"}
+          Lorem Lorem Brodi Lorem {"🤟"}
         </h5>
         <p className="text-white text-sm ">
-          IDC empowers developers at INSTIKI to reach new heights. Through
-          workshops, projects, and innovation, we shape the future of tech.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          laudantium labore unde, esse impedit incidunt magnam? Nobis
+          voluptatibus non quia ex ipsa consequuntur, amet commodi, ea porro
+          autem, illum dignissimos?
         </p>
       </div>
     </div>
