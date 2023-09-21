@@ -5,7 +5,6 @@ import { Poppins } from "next/font/google";
 import NProgress from "nprogress";
 import Router from "next/router";
 import "nprogress/nprogress.css";
-import { Head } from "next/document";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());

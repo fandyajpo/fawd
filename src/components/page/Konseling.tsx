@@ -34,8 +34,11 @@ const Konseling = () => {
           <div className="w-full flex flex-col items-center gap-4 px-2 overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3">
             {a.map((s, r) => {
               return (
-                <div className="bg-white border border-gray-200  flex-none relative rounded-lg hover:shadow-md shadow max-w-sm p-4">
-                  <div key={r} className=" flex gap-2 ">
+                <div
+                  key={r}
+                  className="bg-white border border-gray-200  flex-none relative rounded-lg hover:shadow-md shadow max-w-sm p-4"
+                >
+                  <div className=" flex gap-2 ">
                     <div className="w-24 h-24 bg-blue-500 rounded-xl flex-none"></div>
                     <div>
                       <a href="#">
