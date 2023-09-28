@@ -3,42 +3,56 @@ import Modal from "../layout/modal";
 import { Right } from "../svg";
 import Link from "next/link";
 import { useState } from "react";
+import one from "public/core/1.jpeg";
+import two from "public/core/2.jpeg";
+import three from "public/core/3.jpeg";
+import four from "public/core/4.jpeg";
+import five from "public/core/5.jpeg";
+import six from "public/core/6.jpeg";
+import seven from "public/core/7.jpeg";
+
+import eight from "public/team/8.jpeg";
+import nine from "public/team/9.jpeg";
+import ten from "public/team/10.jpeg";
+import eleven from "public/team/11.jpeg";
+import twelve from "public/team/12.jpeg";
+import thirteen from "public/team/13.jpeg";
 
 const lead = [
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: one,
   },
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: two,
   },
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: three,
   },
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: four,
   },
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: five,
   },
   {
     name: "Agusto",
     role: "Co-Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: six,
   },
   {
     name: "Dayu",
     role: "Vercel Team",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: seven,
   },
 ];
 
@@ -46,47 +60,32 @@ const data = [
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: eight,
   },
   {
     name: "Agusto",
     role: "Co-Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: nine,
   },
   {
     name: "Dayu",
     role: "Vercel Team",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: ten,
   },
   {
     name: "Wisnu",
     role: "Netlify",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: eleven,
   },
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: twelve,
   },
   {
     name: "Fandy",
     role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
-  },
-  {
-    name: "Fandy",
-    role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
-  },
-  {
-    name: "Fandy",
-    role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
-  },
-  {
-    name: "Fandy",
-    role: "Founder",
-    src: "https://cdn.discordapp.com/attachments/1055060226858029076/1112092759684305016/IMG_20230118_184127_047.jpg",
+    src: thirteen,
   },
 ];
 
@@ -115,11 +114,14 @@ const Team = () => {
               return (
                 <li key={e}>
                   <div className="flex flex-col md:flex-row items-center gap-x-6">
-                    <img
+                    <Image
                       className="h-16 w-16 rounded-full"
-                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
+                      src={s.src}
+                      alt="core"
+                      width={500}
+                      height={500}
                     />
+
                     <div>
                       <h3 className="text-sm font-semibold leading-7 tracking-tight text-gray-900 text-center md:text-left">
                         Leslie Alexander
@@ -168,10 +170,12 @@ const Team = () => {
               return (
                 <li key={i}>
                   <div className="flex flex-col items-center gap-x-6">
-                    <img
+                    <Image
                       className="h-16 w-16 rounded-full"
-                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
+                      src={a.src}
+                      alt="core"
+                      width={500}
+                      height={500}
                     />
                     <div>
                       <h3 className="text-sm font-semibold leading-7 tracking-tight text-gray-900 text-center">
