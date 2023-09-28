@@ -1,7 +1,7 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import dynamic from "next/dynamic";
-
+import Bottom from "./bottom";
 const DynamicNavbar = dynamic(() => import("./navbar"), {
   ssr: false,
   loading: () => (
@@ -15,6 +15,7 @@ const LayoutProvider = ({ children }: { children: React.ReactNode }) => {
       <DynamicNavbar />
       <div>{children}</div>
       <Footer />
+      <Bottom />
     </div>
   );
 };
