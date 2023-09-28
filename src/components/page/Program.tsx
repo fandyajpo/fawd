@@ -63,7 +63,7 @@ const Program = () => {
           <div className="w-full flex items-center gap-4 px-2 overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {a.map((s: ProgramInterface, r) => {
               return (
-                <div key={r}>
+                <div key={r} className="flex-none">
                   <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-md flex-none relative">
                     <a href="#">
                       <h5 className="mb-2 md:text-base truncate text-sm font-bold tracking-tight text-gray-900 break-words">
