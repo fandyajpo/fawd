@@ -66,7 +66,7 @@ const Landing = () => {
           />
         </div>
 
-        <div className="mx-auto max-w-2xl">
+        <div className="mx-auto max-w-5xl">
           <div className="text-center">
             <animated.div
               style={props}
@@ -95,11 +95,14 @@ const Landing = () => {
             {/* </h1> */}
             <div className="flex flex-col-reverse md:flex-col">
               <p className="mt-4 text-sm leading-6 md:leading-8 text-gray800">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Dignissimos molestiae recusandae enim commodi deleniti totam
-                amet dolorum quis fugit temporibus voluptatem, numquam
-                doloribus, tempora, quam dolor reiciendis iure libero
-                accusantium.
+                Pusat Informasi dan Konseling Mahasiswa Janadi Sahwahita adalah
+                salah satu organisasi mahasiswa yang berada di Institus Bisnis
+                dan Teknologi Indonesia dan bertanggung jawab kepada Dinas
+                Pemberdayaan Perempuan Dan Perlindungan Anak, Pengendalian
+                Penduduk Dan Keluarga Berencana (P3AP2KB) Kota Denpasar, Pembina
+                Pusat Informasi dan Konseling Mahasiswa serta Wakil Rektor III
+                dan Bidang Kemahasiswaan Institus Bisnis dan Teknologi
+                Indonesia.
               </p>
               <div className="mt-8 flex items-center justify-center gap-x-6">
                 {/* <Link

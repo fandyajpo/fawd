@@ -56,10 +56,10 @@ const Konseling = () => {
                   <div className="flex justify-between w-full">
                     <div className="flex items-center gap-4 pt-2">
                       <Link href={""}>
-                        <TIKTOK className="w-8 h-8" />
+                        <TIKTOK className="w-6 h-6" />
                       </Link>
                       <Link href={""}>
-                        <INSTAGRAM className="w-8 h-8" />
+                        <INSTAGRAM className="w-6 h-6" />
                       </Link>
                     </div>
                     <Link
