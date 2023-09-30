@@ -20,71 +20,71 @@ import thirteen from "public/team/13.jpeg";
 
 const lead = [
   {
-    name: "Fandy",
-    role: "Founder",
-    src: one,
-  },
-  {
-    name: "Fandy",
-    role: "Founder",
-    src: two,
-  },
-  {
-    name: "Fandy",
-    role: "Founder",
-    src: three,
-  },
-  {
-    name: "Fandy",
-    role: "Founder",
-    src: four,
-  },
-  {
-    name: "Fandy",
-    role: "Founder",
-    src: five,
-  },
-  {
-    name: "Agusto",
-    role: "Co-Founder",
+    name: "Ni Made Diah Nandita Pangestu",
+    role: "Ketua",
     src: six,
   },
   {
-    name: "Dayu",
-    role: "Vercel Team",
+    name: "Made Adhitya Dwipayana",
+    role: "Wakil I",
+    src: two,
+  },
+  {
+    name: "I Wayan Andi Aryandi",
+    role: "Wakil II",
+    src: one,
+  },
+  {
+    name: "Ni Kadek Wulan Artika Sari",
+    role: "Bendahara I",
+    src: three,
+  },
+  {
+    name: "Ni Komang Dea Agnesya",
+    role: "Bendahara II",
+    src: four,
+  },
+  {
+    name: "Paulina Aquileia Neldi",
+    role: "Sekretaris I",
+    src: five,
+  },
+  {
+    name: "Olivia Sutriani Jelni",
+    role: "Sekretasris II",
     src: seven,
   },
 ];
 
 const data = [
   {
-    name: "Fandy",
-    role: "Founder",
+    name: "Wayan Yumara Pitudeska",
+    role: "Wk Konselor",
     src: eight,
   },
   {
-    name: "Agusto",
-    role: "Co-Founder",
+    name: "Ni Putu Dewi Sekarini",
+    role: "Wk humas",
     src: nine,
   },
   {
-    name: "Dayu",
-    role: "Vercel Team",
+    name: "Rizki Ayu Amalia Haris",
+    role: "Koor Konselor",
     src: ten,
   },
   {
-    name: "Wisnu",
-    role: "Netlify",
+    name: "Komang Dina Krisna Launa",
+    role: "Koor Humas",
     src: eleven,
   },
   {
-    name: "Fandy",
-    role: "Founder",
+    name: "I Putu Danan Mahardika",
+    role: "Koor Minat Bakat",
     src: twelve,
   },
   {
-    name: "Fandy",
-    role: "Founder",
+    name: "I Dewa Gede Dika Mahendr",
+    role: "Koor Kominfo",
     src: thirteen,
   },
 ];
@@ -99,7 +99,7 @@ const Team = () => {
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-6 xl:grid-cols-3">
           <div className="space-y-4 px-6 md:px-0">
             <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500 sm:text-4xl">
-              Core Team
+              Team Inti
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">
               Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
@@ -113,7 +113,7 @@ const Team = () => {
             {lead.map((s, e) => {
               return (
                 <li key={e}>
-                  <div className="flex flex-col md:flex-row items-center gap-x-6">
+                  <div className="flex flex-col md:flex-row items-center gap-x-6 gap-y-2">
                     <Image
                       className="h-16 w-16 rounded-full"
                       src={s.src}
@@ -123,11 +123,11 @@ const Team = () => {
                     />
 
                     <div>
-                      <h3 className="text-sm font-semibold leading-7 tracking-tight text-gray-900 text-center md:text-left">
-                        Leslie Alexander
+                      <h3 className="text-sm font-semibold leading-4 tracking-tight text-gray-900 text-center md:text-left">
+                        {s.name}
                       </h3>
                       <p className="text-xs font-normal leading-6 text-gray600 text-center md:text-left">
-                        Co-Founder
+                        {s.role}
                       </p>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const Team = () => {
         <div className="space-y-6">
           <div className="space-y-4 px-6 md:px-0">
             <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500 sm:text-4xl">
-              Teammates
+              Team
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">
               Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
@@ -169,7 +169,7 @@ const Team = () => {
             {data.map((a, i) => {
               return (
                 <li key={i}>
-                  <div className="flex flex-col items-center gap-x-6">
+                  <div className="flex flex-col items-center gap-x-6 gap-y-2">
                     <Image
                       className="h-16 w-16 rounded-full"
                       src={a.src}
@@ -178,11 +178,11 @@ const Team = () => {
                       height={500}
                     />
                     <div>
-                      <h3 className="text-sm font-semibold leading-7 tracking-tight text-gray-900 text-center">
-                        Leslie Alexander
+                      <h3 className="text-sm font-semibold leading-4 tracking-tight text-gray-900 text-center">
+                        {a.name}
                       </h3>
                       <p className="text-xs font-normal leading-6 text-gray600 text-center">
-                        Co-Founder
+                        {a.role}
                       </p>
                     </div>
                   </div>

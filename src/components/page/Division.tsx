@@ -28,7 +28,7 @@ const Division = () => {
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-6 xl:grid-cols-3">
         <div className="space-y-4 px-6 md:px-0">
           <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500 sm:text-4xl">
-            Our Divisions
+            Divisi
           </h2>
           <p className="mt-6 text-xs leading-4 text-gray600">
             Terdapat 4 divisi PIK-M Janadi Sahwahita :
