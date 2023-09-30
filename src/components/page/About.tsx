@@ -99,7 +99,7 @@ const Division = () => {
         </div>
         <ul
           role="list"
-          className="grid gap-x-8 p-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2"
+          className="grid gap-x-8 gap-y-4 p-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2"
         >
           <li>
             <div className="flex flex-col md:flex-row items-center gap-x-6">
@@ -144,7 +144,7 @@ const Division = () => {
             </div>
           </li>
           <li>
-            <div className="flex flex-col md:flex-row items-center gap-x-6">
+            <div className="flex flex-col md:flex-row gap-x-6">
               <div>
                 <h3 className="text-sm font-semibold leading-7 tracking-tight text-gray-900 md:text-left">
                   Warna Logo
