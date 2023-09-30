@@ -1,19 +1,14 @@
-import React, { useEffect } from "react";
 import { useRouter } from "next/router";
-import { IDCHORIZONTAL } from "../svg";
 import Link from "next/link";
-
+import { useState } from "react";
 const Navbar = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleNavbar = () => {
     setOpen(!open);
   };
 
   const router = useRouter();
-  const {
-    query: { id },
-  } = router;
 
   const scroll = (elementID: string) => {
     if (elementID === "/") {
@@ -55,7 +50,7 @@ const Navbar = () => {
         />
         <Link href={"/"} className="w-24 flex items-center justify-center h-24">
           <p className="font-bold bg p-2 text-white rounded-md bg-blue-500">
-            PIK
+            PIK M
           </p>
         </Link>
         <div
