@@ -15,12 +15,11 @@ const Banner = () => {
       </div>
       <div className="w-full p-4 text-center bg-gradient-to-r from-blue-500 to-blue-800 border-t shadow-sm">
         <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold text-white ">
-          Join with us {"🤟"}
+          Selamat datang di website PIK M JANADI SAHWAHITA.
         </h5>
         <p className="text-white text-sm ">
-          Selamat datang di website PIK M JANADI SAHWAHITA. Semoga website ini
-          dapat menjadi dan memberi seputaran informasi dan konseling kepada
-          kalian semua.
+          Semoga website ini dapat menjadi dan memberi seputaran informasi dan
+          konseling kepada kalian semua.
         </p>
       </div>
     </div>
