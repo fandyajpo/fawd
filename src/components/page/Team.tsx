@@ -83,7 +83,7 @@ const data = [
     src: twelve,
   },
   {
-    name: "I Dewa Gede Dika Mahendr",
+    name: "I Dewa Gede Dika Mahendra",
     role: "Koor Kominfo",
     src: thirteen,
   },
@@ -101,10 +101,10 @@ const Team = () => {
             <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500 sm:text-4xl">
               Team Inti
             </h2>
-            <p className="mt-6 text-xs leading-4 text-gray600">
+            {/* <p className="mt-6 text-xs leading-4 text-gray600">
               Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
               vitae elementum enim vitae ullamcorper suspendisse.
-            </p>
+            </p> */}
           </div>
           <ul
             role="list"

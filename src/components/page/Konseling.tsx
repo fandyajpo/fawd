@@ -12,6 +12,13 @@ const a = [
     numberDesktop:
       "https://web.whatsapp.com/send/?phone=%2B6281236855788&text&type=phone_number&app_absent=0",
     instagram: "https://instagram.com/rizki_1806?igshid=MzRlODBiNWFlZA==",
+    tiktok: "https://www.tiktok.com/@rizkiamalia0121?_t=8gHkDGDZ2fQ&_r=1",
+    description: `Kamu punya masalah? 
+    Tapi nggak tau mau ceritain ke siapa? 
+    Mau cerita ke teman, takut dibocorin rahasiamu 😌😌 .. 
+    Tenang sekarang PIK-M sudah menyediakan Konselor sebaya untuk mendengar cerita kamu serta menjaga kerahasiaan nya.. Dan akan memberikan solusi dari permasalahan yang sedang kamu hadapi.. 
+    Yuk ceritain masalah kamu pada orang yang tepat dan terpercaya 👌🏻
+    `,
   },
   {
     image: SharingSession2,
@@ -20,6 +27,9 @@ const a = [
     numberDesktop:
       "https://web.whatsapp.com/send/?phone=%2B6287861409641&text&type=phone_number&app_absent=0",
     instagram: "https://instagram.com/wayanyumara?igshid=MzRlODBiNWFlZA==",
+    tiktok: "https://www.tiktok.com/@wayang7deska?_t=8gHkNWLX0rg&_r=1",
+    description: `Jika kamu merasa bebanmu lebih berat daripada yang lain, itu karena Tuhan melihatmu lebih kuat daripada yang lain
+    `,
   },
 ];
 
@@ -45,8 +55,10 @@ const Konseling = () => {
               Kami Membuka Sesi Konseling
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">
-              Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
-              vitae elementum enim vitae ullamcorper suspendisse.
+              Kami Membuka Sesi Konseling Yuk ceritain masalahmu dengan
+              menghubungi kakak-kakak di bawah ini!!! Dengan bercerita kita bisa
+              mengurangi rasa stres yang melanda pikiran, jadi jangan dipendam
+              ya!!! Sttt kami menjaga penuh kerahasiaan dan privasi kalian
             </p>
           </div>
           <div></div>
@@ -73,15 +85,20 @@ const Konseling = () => {
                         </h5>
                       </a>
                       <p className="mb-3 font-normal text-gray600 text-xs">
-                        Here are the biggest enterprise technology acquisitions
-                        of 2021 so far, in reverse chronological order.
+                        {s.description && s.description.length > 100
+                          ? s?.description.substring(0, 100) + "..."
+                          : s.description}
                       </p>
                       <div className="w-full flex justify-end pt-4"></div>
                     </div>
                   </div>
                   <div className="flex justify-between w-full">
                     <div className="flex items-center gap-4 pt-2">
-                      <Link target="_blank" rel="noopener noreferrer" href={""}>
+                      <Link
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={s.tiktok}
+                      >
                         <TIKTOK className="w-6 h-6" />
                       </Link>
                       <Link

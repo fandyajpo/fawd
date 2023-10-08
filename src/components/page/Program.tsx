@@ -55,10 +55,10 @@ const Program = () => {
             <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-blue-500 sm:text-4xl">
               Program Kerja
             </h2>
-            <p className="mt-6 text-xs leading-4 text-gray600">
+            {/* <p className="mt-6 text-xs leading-4 text-gray600">
               Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
               vitae elementum enim vitae ullamcorper suspendisse.
-            </p>
+            </p> */}
           </div>
 
           <div className="w-full flex items-center gap-4 px-2 overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -80,7 +80,7 @@ const Program = () => {
                       onClick={() => opens(s)}
                       className="inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-500"
                     >
-                      Read more
+                      Selengkapnya
                       <svg
                         aria-hidden="true"
                         className="w-4 h-4 ml-2 -mr-1"

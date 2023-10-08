@@ -85,7 +85,7 @@ const Navbar = () => {
                 router.asPath === "/#about" && "text-blue-500"
               }`}
             >
-              About Us
+              Tentang PIKM
             </button>
           </div>
           <div>
