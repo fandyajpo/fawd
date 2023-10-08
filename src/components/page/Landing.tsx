@@ -82,13 +82,13 @@ const Landing = () => {
 
             {/* @ts-ignore */}
             <Trail open={open}>
-              <h1 className="text-4xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-violet-500">
+              <h1 className="text-2xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-violet-500">
                 PIK
               </h1>
-              <h1 className="text-4xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-500">
+              <h1 className="text-2xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-500">
                 M
               </h1>
-              <h1 className="text-4xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
+              <h1 className="text-2xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
                 Janadi Sahwahita
               </h1>
             </Trail>
