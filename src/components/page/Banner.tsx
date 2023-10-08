@@ -17,6 +17,11 @@ const Banner = () => {
         <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold text-white ">
           Join with us {"🤟"}
         </h5>
+        <p className="text-white text-sm ">
+          Selamat datang di website PIK M JANADI SAHWAHITA. Semoga website ini
+          dapat menjadi dan memberi seputaran informasi dan konseling kepada
+          kalian semua.
+        </p>
       </div>
     </div>
   );
