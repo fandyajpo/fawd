@@ -15,7 +15,26 @@ const Footer = memo(() => {
               className="flex flex-row items-center gap-2 text-white hover:underline"
             >
               <INSTAGRAM className="w-4 h-4" />
-              <p>pikmjanadisahwahita</p>
+
+              <p>@pikmjanadisahwahita</p>
+            </Link>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={"https://www.instagram.com/instikiofficial/"}
+              className="flex flex-row items-center gap-2 text-white hover:underline"
+            >
+              <INSTAGRAM className="w-4 h-4" />
+              <p>@instikiofficial</p>
+            </Link>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={"https://www.instagram.com/instikikemahasiswaan/"}
+              className="flex flex-row items-center gap-2 text-white hover:underline"
+            >
+              <INSTAGRAM className="w-4 h-4" />
+              <p>@instikikemahasiswaan</p>
             </Link>
           </div>
         </div>
