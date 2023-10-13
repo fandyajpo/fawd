@@ -45,13 +45,13 @@ const KonselingCard = (props: KonselingUser) => {
           />
           <div className="h-24">
             <a href="#">
-              <h5 className="mb-2 md:text-base text-sm font-bold tracking-tight text-gray-900 break-words">
+              <h5 className="mb-2 md:text-base text-xs font-bold tracking-tight text-gray-900 break-words">
                 {props.name}
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray600 text-xs">
-              {props.description && props.description.length > 80
-                ? props?.description.substring(0, 80) + "..."
+              {props.description && props.description.length > 70
+                ? props?.description.substring(0, 70) + "..."
                 : props.description}
               <span
                 role="button"

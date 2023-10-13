@@ -48,7 +48,7 @@ export default function KonselingModal(props: Props) {
                   {props.title}
                   <button
                     type="button"
-                    className="inline-flex w-full justify-end"
+                    className="inline-flex outline-none w-fit justify-end"
                     onClick={() => props.setOpen(false)}
                   >
                     <svg
