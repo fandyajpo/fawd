@@ -48,9 +48,9 @@ const Navbar = () => {
           }`}
           onClick={handleNavbar}
         />
-        <Link href={"/"} className="w-24 flex items-center justify-center h-24">
+        <Link href={"/"} className="w-44 flex items-center justify-center h-24">
           <p className="font-bold bg p-2 text-white rounded-md bg-blue-500">
-            PIK M
+            PIK M INSTIKI
           </p>
         </Link>
         <div

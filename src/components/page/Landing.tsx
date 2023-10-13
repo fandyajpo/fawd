@@ -89,7 +89,10 @@ const Landing = () => {
                 M
               </h1>
               <h1 className="text-2xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
-                INSTIKI
+                Janadi
+              </h1>
+              <h1 className="text-2xl md:text-5xl drop-shadow-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500">
+                Sahwahita
               </h1>
             </Trail>
             {/* </h1> */}
