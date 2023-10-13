@@ -56,10 +56,10 @@ const Konseling = () => {
               Kami Membuka Sesi Konseling
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">
-              Kami Membuka Sesi Konseling Yuk ceritain masalahmu dengan
-              menghubungi kakak-kakak di bawah ini!!! Dengan bercerita kita bisa
-              mengurangi rasa stres yang melanda pikiran, jadi jangan dipendam
-              ya!!! Sttt kami menjaga penuh kerahasiaan dan privasi kalian
+              Yuk ceritain masalahmu dengan menghubungi kakak-kakak di bawah
+              ini!!! Dengan bercerita kita bisa mengurangi rasa stres yang
+              melanda pikiran, jadi jangan dipendam ya!!! Sttt kami menjaga
+              penuh kerahasiaan dan privasi kalian
             </p>
           </div>
 
