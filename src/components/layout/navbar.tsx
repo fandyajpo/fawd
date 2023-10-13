@@ -75,7 +75,7 @@ const Navbar = () => {
                 router.asPath === "/#program" && "text-blue-500"
               }`}
             >
-              Program
+              Program Kerja
             </button>
           </div>
           <div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                 router.asPath === "/#about" && "text-blue-500"
               }`}
             >
-              Tentang PIKM
+              Tentang PIK M
             </button>
           </div>
           <div>
