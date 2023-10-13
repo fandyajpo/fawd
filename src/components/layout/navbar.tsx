@@ -65,7 +65,7 @@ const Navbar = () => {
                 router.asPath === "/" && "text-blue-500"
               }`}
             >
-              Home
+              Dashboard
             </button>
           </div>
           <div>
