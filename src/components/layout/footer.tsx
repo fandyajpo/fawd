@@ -3,11 +3,11 @@ import Link from "next/link";
 import { INSTAGRAM } from "../svg";
 const Footer = memo(() => {
   return (
-    <div className="bg-gradient-to-br from-blue-500 to-violet-500 flex items-center justify-center mt-24 p-6">
+    <div className="bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center mt-24 p-6">
       <div className="md:max-w-2xl lg:max-w-4xl duration-1000 xl:max-w-7xl w-screen flex flex-col gap-y-6 items-stretch grow flex-shrink-0 gap-x-4 md:p-2 py-2 px-6 h-auto ">
         <div className="space-y-2">
           <p className="text-xl text-white font-semibold">Follow Us</p>
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-2 flex-col">
             <Link
               target="_blank"
               rel="noopener noreferrer"
