@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { TIKTOK, INSTAGRAM } from "../svg";
+import { TIKTOK, INSTAGRAM, GMAIL } from "../svg";
 import Link from "next/link";
 import SharingSession1 from "public/sharing-session/sharing-session-1.jpeg";
 import SharingSession2 from "public/sharing-session/sharing-session-2.jpeg";
@@ -50,21 +50,27 @@ const Konseling = () => {
             }}
           />
         </div>
-        <div className="space-y-14">
+        <div className="">
           <div className="space-y-4 px-6 md:px-0">
             <h2 className="text-xl md:text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-blue-500 sm:text-4xl">
               Kami Membuka Sesi Konseling
             </h2>
             <p className="mt-6 text-xs leading-4 text-gray600">
-              Yuk ceritain masalahmu dengan menghubungi kakak-kakak di bawah
+              Yuk ceritain masalahmu dengan menghubungi email kita di bawah
               ini!!! Dengan bercerita kita bisa mengurangi rasa stres yang
               melanda pikiran, jadi jangan dipendam ya!!! Sttt kami menjaga
               penuh kerahasiaan dan privasi kalian
             </p>
           </div>
 
-          <div className="w-full flex flex-col items-center gap-4 px-2 overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-3">
-            {a.map((s, r) => {
+          <div className="w-full flex flex-col gap-4 p-6">
+            <div className="p-4 w-fit border bg-white shadow-sm rounded-xl">
+              <div className="flex gap-4 items-center">
+                <GMAIL className="w-12 h-12" />
+                <p>pikmjanadisahwahita@instiki.ac.id</p>
+              </div>
+            </div>
+            {/* {a.map((s, r) => {
               return (
                 <KonselingCard
                   key={r}
@@ -77,7 +83,7 @@ const Konseling = () => {
                   numberDesktop={s.numberDesktop}
                 />
               );
-            })}
+            })} */}
           </div>
         </div>
       </div>

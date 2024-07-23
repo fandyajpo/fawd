@@ -88,7 +88,7 @@ const Navbar = () => {
               Tentang PIK M
             </button>
           </div>
-          <div>
+          {/* <div>
             <button
               onClick={() => scroll("team")}
               className={`w-full md:w-auto duration-75 ${
@@ -97,7 +97,7 @@ const Navbar = () => {
             >
               Team
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="w-28 md:w-16 h-auto flex flex-row items-center justify-end">
           <button onClick={handleNavbar} className={"md:hidden"}>

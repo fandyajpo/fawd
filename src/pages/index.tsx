@@ -29,9 +29,9 @@ const Home = () => {
       <Screen color="white" id="program">
         <Program />
       </Screen>
-      <Screen color="white" id="team">
+      {/* <Screen color="white" id="team">
         <Team />
-      </Screen>
+      </Screen> */}
     </>
   );
 };
