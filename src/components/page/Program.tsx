@@ -9,17 +9,12 @@ interface ProgramInterface {
 }
 const a: Array<ProgramInterface> = [
   {
-    title: "Pemilihan Duta Genre Instiki 2024",
+    title: "Pemilihan Duta Genre Instiki",
     content:
       "Pemilihan duta genre Instiki merupakan salah satu program kerja PIK-M Janadi Sahwahita yang bertujuan untuk melahirkan duta genre Instiki yang akan mensosialisasikan terkait penyiapan kehidupan berkeluarga bagi remaja baik di kalangan mahasiswa maupun masyarakat luas. Peserta dari pemilihan duta genre Instiki merupakan mahasiswa aktif instiki yang  telah melalui beberapa tahapan seleksi mulai dari test tulis, test wawancara, test program kerja dan untuk 10 finalis duta genre Instiki akan berlaga pada grand final pemilihan duta genre Instiki",
   },
-  // {
-  //   title: "Sharing Session Live Instagram",
-  //   content:
-  //     "Sharing session live Instagram merupakan salah satu program kerja PIK-m Janadi Sahwahita dimana kami melakukan kerja sama dengan beberapa PIK m lainnya sebagai partner dalam program kerja sharing session live Instagram ini. Nanti akan ada salah seorang perwakilan dari PIK-M Janadi Sahwahita dan salah seorang perwakilan dari partner PIK m lainnya akan berbincang-bincang terkait adanya permasalahan remaja yang sedang hangat saat ini melalui live Instagram akun official PIK-M Janadi Sahwahita",
-  // },
   {
-    title: "PikFestival 5",
+    title: "PikFestival",
     content:
       "Pikfest atau PIK festival merupakan salah satu event PIK-M Janadi Sahwahita yang di dalamnya terdapat beberapa rangkaian acara mulai dari seminar nasional, perlombaan dan kegiatan PKM atau pengabdian kepada masyarakat",
   },
